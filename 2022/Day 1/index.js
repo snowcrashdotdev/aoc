@@ -1,4 +1,4 @@
-import parser from '../../../parser.js'
+import parser from '../../parser.js'
 
 const input = parser.parse2d(import.meta.url)
 
