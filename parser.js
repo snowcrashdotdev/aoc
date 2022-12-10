@@ -14,6 +14,12 @@ const Parser = function() {
             .split(/\n\n/gi)
             .map(i => i.split(/\n/gi))
     }
+
+    this.parseTuples = (url) => {
+        return this.read(url)
+            .split(/\n/gi)
+            .map(i => i.split(/\s/gi))
+    }
 }
 
 export default new Parser()
