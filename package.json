@@ -1,0 +1,25 @@
+{
+  "name": "@snowcrash/aoc",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowcrashdotdev/aoc.git"
+  },
+  "keywords": [
+    "advent",
+    "of",
+    "code"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/snowcrashdotdev/aoc/issues"
+  },
+  "homepage": "https://github.com/snowcrashdotdev/aoc#readme"
+}
