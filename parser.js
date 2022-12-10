@@ -9,6 +9,11 @@ const Parser = function() {
         return fs.readFileSync(file, 'utf8').toString().trim()
     }
 
+    this.parse = (url) => {
+        return this.read(url)
+            .split(/\n/gi)
+    }
+
     this.parse2d = (url) => {
         return this.read(url)
             .split(/\n\n/gi)
