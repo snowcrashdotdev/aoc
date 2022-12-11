@@ -40,5 +40,3 @@ const star2 = elfGroups
         return itemPriority(item)
     })
     .reduce((c,v) => { return c + v }, 0)
-
-console.debug(star2)
